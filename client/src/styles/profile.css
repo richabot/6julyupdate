@@ -1,0 +1,115 @@
+.profile-container {
+  display: flex;
+}
+
+.side-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.side-panel button {
+  margin-bottom: 10px;
+}
+
+.side-panel button.active {
+  font-weight: bold;
+}
+
+.component {
+  margin-left: 20px;
+  border: 1px solid;
+    width: 50%;
+    margin-left: 336px;
+    height: fit-content;
+}
+.personalbox1{
+ 
+  height: 150px;
+  width: 86%;
+  margin: 26px;
+  padding: 35px;
+  background-color:white
+}
+.personalbox2{
+  display: flex;
+  flex-direction: column;
+  height: 236px;
+}
+.personalbox3{
+  display: flex;
+  flex-direction: column;
+  height: 404px;
+}
+
+.input-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.profiletab1Save{
+  display: block;
+  height: 46px;
+  margin: auto;
+  width: 125px;
+}
+
+.successalert{
+  text-align: center;
+  margin: auto;
+  width: 29%;
+
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+
+.left-column {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.initial {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.right-column {
+  flex: 1;
+}
+
+.right-column p {
+  margin-bottom: 5px;
+}
+
+.profilepic{
+  height: 60px;
+  width: 70px;
+  border-radius: 50%;
+}

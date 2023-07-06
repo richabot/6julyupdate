@@ -1,0 +1,16 @@
+.authinfo{
+    margin: 20px;
+    padding: 22px;
+    background-color: #dbf7fd;
+    font-weight: 700;
+    border: 3px solid #95e8f8;
+}
+
+.qrbtn{
+   
+    display: flex;
+    width: 304%;
+    justify-content: space-between;
+    padding: 16px;
+
+}
